@@ -1,0 +1,52 @@
+{
+    "Data Structure and Combination": {
+        "requirements": "Charts should be organized logically to express relationships or hierarchies in the data. Each chart should have a clear purpose for inclusion and avoid redundancy. The composite visualization should clearly convey the meaning of each data dimension without relying on dynamic interactions.",
+        "likert": [
+            "Charts lack logical connections, relationships unclear.",
+            "Some logical connections, but certain charts are unnecessary.",
+            "Clear data relationships, reasonable chart choices.",
+            "Charts are integrated, with clear data hierarchies.",
+            "Clear and effective integration that expresses data relationships."
+        ]
+    },
+    "Data Relationships and Expression": {
+        "requirements": "The composite visualization should clearly express the relationships between charts, such as cross-referencing, comparisons, or stacked representations of different datasets. The relationships between charts should be easy to understand, supporting both global and local views of the data.",
+        "likert": [
+            "Data relationships are unclear, chart layout fails to show logical associations between parts.",
+            "Data relationships are somewhat clear, but certain associations are weak or difficult to discern.",
+            "Clear relationships between charts, but some data connections are not highlighted enough.",
+            "Relationships between charts are clear and coherent, effectively conveying the interactions or comparisons between data dimensions.",
+            "Highly effective relationships, clear and sophisticated arrangement."
+        ]
+    },
+    "Information Volume and Hierarchy": {
+        "requirements": "Each chart should display an appropriate amount of information, avoiding overload or oversimplification, ensuring the hierarchical structure and granularity of data are conveyed. The overall layout should have a clear hierarchy, highlighting key data points while presenting finer details.",
+        "likert": [
+            "Uneven information density, difficult comprehension.",
+            "Balanced information density, but some clutter.",
+            "Information is evenly distributed but may omit details.",
+            "Balanced information, with a clear hierarchical structure.",
+            "Well-structured hierarchy, clear focus on both details and the bigger picture."
+        ]
+    },
+    "Data Accuracy and Consistency": {
+        "requirements": "All charts in the composite visualization should ensure data accuracy and consistency. Data presented should be based on reliable sources, and numerical values and information should be correct, avoiding misleading or incorrect data representations.",
+        "likert": [
+            "Significant data errors, misleading information.",
+            "Minor inconsistencies, but not impactful.",
+            "Mostly accurate, with minor flaws.",
+            "Accurate and consistent data, no noticeable issues.",
+            "Highly consistent, accurate data with flawless presentation."
+        ]
+    },
+    "Goal-Oriented and Interpretation": {
+        "requirements": "The composite visualization should have a clear goal, providing actionable insights or conclusions. Each chart should have a specific interpretive purpose, and the overall visualization should support decision-making, reasoning, or understanding.",
+        "likert": [
+            "The goal is unclear, and the relationships between charts are ambiguous.",
+            "The goal is somewhat identifiable, but the relationships between charts are unclear.",
+            "The goal is reasonably clear, and the charts help in understanding.",
+            "The goal is clear, composite visualization conveys insights.",
+            "Goal-oriented, providing deep insights and actionable conclusions."
+        ]
+    }
+}

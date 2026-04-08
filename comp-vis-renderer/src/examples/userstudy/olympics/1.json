@@ -1,0 +1,652 @@
+{
+  "8741708490933": {
+    "vis_type": "composite",
+    "composite_pattern": "stack",
+    "spatial_arrangement": "radial",
+    "spatial_distribution": "proportional",
+    "children": [8741708850682, 8741708756080, 8741708755981, 8741708850610],
+    "operation": "COLUMN_JOIN region",
+    "importance": 0.9853161537653871,
+    "order_columns": ["region"],
+    "theme": "olympic",
+    "reward": 0.804855,
+    "detailed_score": {
+      "total": 0.804855,
+      "cognitive": 0.617089,
+      "detailed_cognitive": {
+        "convexity": 1.0,
+        "compactness": 0.324702,
+        "proximity": 0.244444,
+        "balance": 0.62764
+      },
+      "task_relevance": 0.987701,
+      "aesthetic": 1.0,
+      "weights": {
+        "cognitive": 0.5,
+        "task_relevance": 0.3,
+        "aesthetic": 0.2
+      }
+    }
+  },
+  "8741708756080": {
+    "vis_type": "composite",
+    "composite_pattern": "repetition",
+    "spatial_arrangement": "circular",
+    "spatial_distribution": "equal",
+    "children": [
+      8741708755990, 8741708490840, 8741708490858, 8741708490966, 8741708491002,
+      8741708490804
+    ],
+    "operation": "ALL_UNION region",
+    "importance": 0.9853161537653871
+  },
+  "8741708755990": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Bronze", "Gold", "Silver"]],
+        "name": "medal"
+      },
+      "Y": {
+        "data": [[206, 318, 230]],
+        "name": "cnt(medal)"
+      },
+      "conditions": ["region == China"],
+      "importance": 0.9853161537653871
+    }
+  },
+  "8741708490840": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Bronze", "Gold", "Silver"]],
+        "name": "medal"
+      },
+      "Y": {
+        "data": [[252, 204, 229]],
+        "name": "cnt(medal)"
+      },
+      "conditions": ["region == France"],
+      "importance": 0.9853161537653871
+    }
+  },
+  "8741708490858": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Bronze", "Gold", "Silver"]],
+        "name": "medal"
+      },
+      "Y": {
+        "data": [[493, 445, 446]],
+        "name": "cnt(medal)"
+      },
+      "conditions": ["region == Germany"],
+      "importance": 0.9853161537653871
+    }
+  },
+  "8741708490966": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Bronze", "Gold", "Silver"]],
+        "name": "medal"
+      },
+      "Y": {
+        "data": [[484, 593, 495]],
+        "name": "cnt(medal)"
+      },
+      "conditions": ["region == Russia"],
+      "importance": 0.9853161537653871
+    }
+  },
+  "8741708491002": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Bronze", "Gold", "Silver"]],
+        "name": "medal"
+      },
+      "Y": {
+        "data": [[283, 224, 277]],
+        "name": "cnt(medal)"
+      },
+      "conditions": ["region == UK"],
+      "importance": 0.9853161537653871
+    }
+  },
+  "8741708490804": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Bronze", "Gold", "Silver"]],
+        "name": "medal"
+      },
+      "Y": {
+        "data": [[661, 954, 764]],
+        "name": "cnt(medal)"
+      },
+      "conditions": ["region == USA"],
+      "importance": 0.9853161537653871
+    }
+  },
+  "8741708850682": {
+    "vis_type": "composite",
+    "composite_pattern": "repetition",
+    "spatial_arrangement": "circular",
+    "spatial_distribution": "equal",
+    "children": [
+      8741708756170, 8741708756047, 8741708756194, 8741708756014, 8741708756011,
+      8741708756110
+    ],
+    "operation": "ALL_UNION region",
+    "importance": 0.5188083254235916
+  },
+  "8741708756170": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "line",
+      "X": {
+        "data": [
+          [
+            "1920",
+            "1924",
+            "1928",
+            "1932",
+            "1936",
+            "1948",
+            "1952",
+            "1956",
+            "1960",
+            "1964",
+            "1968",
+            "1972",
+            "1976",
+            "1980",
+            "1984",
+            "1988",
+            "1992",
+            "1996",
+            "2000",
+            "2004",
+            "2008",
+            "2012",
+            "2016",
+            "2020",
+            "2024"
+          ]
+        ],
+        "name": "year"
+      },
+      "Y": {
+        "data": [
+          [
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 28, 53, 52, 59, 65,
+            101, 91, 71, 101, 101
+          ]
+        ],
+        "name": "cnt(year)"
+      },
+      "conditions": ["region == China"],
+      "importance": 0.5188083254235916
+    }
+  },
+  "8741708756047": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "line",
+      "X": {
+        "data": [
+          [
+            "1920",
+            "1924",
+            "1928",
+            "1932",
+            "1936",
+            "1948",
+            "1952",
+            "1956",
+            "1960",
+            "1964",
+            "1968",
+            "1972",
+            "1976",
+            "1980",
+            "1984",
+            "1988",
+            "1992",
+            "1996",
+            "2000",
+            "2004",
+            "2008",
+            "2012",
+            "2016",
+            "2020",
+            "2024"
+          ]
+        ],
+        "name": "year"
+      },
+      "Y": {
+        "data": [
+          [
+            43, 40, 26, 20, 19, 32, 18, 14, 5, 16, 16, 13, 9, 14, 28, 16, 29,
+            37, 38, 33, 41, 35, 43, 35, 65
+          ]
+        ],
+        "name": "cnt(year)"
+      },
+      "conditions": ["region == France"],
+      "importance": 0.5188083254235916
+    }
+  },
+  "8741708756194": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "line",
+      "X": {
+        "data": [
+          [
+            "1920",
+            "1924",
+            "1928",
+            "1932",
+            "1936",
+            "1948",
+            "1952",
+            "1956",
+            "1960",
+            "1964",
+            "1968",
+            "1972",
+            "1976",
+            "1980",
+            "1984",
+            "1988",
+            "1992",
+            "1996",
+            "2000",
+            "2004",
+            "2008",
+            "2012",
+            "2016",
+            "2020",
+            "2024"
+          ]
+        ],
+        "name": "year"
+      },
+      "Y": {
+        "data": [
+          [
+            0, 0, 39, 24, 101, 0, 25, 26, 42, 50, 52, 107, 130, 126, 60, 143,
+            83, 66, 56, 50, 42, 45, 45, 39, 33
+          ]
+        ],
+        "name": "cnt(year)"
+      },
+      "conditions": ["region == Germany"],
+      "importance": 0.5188083254235916
+    }
+  },
+  "8741708756014": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "line",
+      "X": {
+        "data": [
+          [
+            "1920",
+            "1924",
+            "1928",
+            "1932",
+            "1936",
+            "1948",
+            "1952",
+            "1956",
+            "1960",
+            "1964",
+            "1968",
+            "1972",
+            "1976",
+            "1980",
+            "1984",
+            "1988",
+            "1992",
+            "1996",
+            "2000",
+            "2004",
+            "2008",
+            "2012",
+            "2016",
+            "2020",
+            "2024"
+          ]
+        ],
+        "name": "year"
+      },
+      "Y": {
+        "data": [
+          [
+            0, 0, 0, 0, 0, 0, 70, 98, 103, 93, 92, 100, 125, 196, 0, 131, 112,
+            63, 89, 90, 72, 82, 56, 0, 0
+          ]
+        ],
+        "name": "cnt(year)"
+      },
+      "conditions": ["region == Russia"],
+      "importance": 0.5188083254235916
+    }
+  },
+  "8741708756011": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "line",
+      "X": {
+        "data": [
+          [
+            "1920",
+            "1924",
+            "1928",
+            "1932",
+            "1936",
+            "1948",
+            "1952",
+            "1956",
+            "1960",
+            "1964",
+            "1968",
+            "1972",
+            "1976",
+            "1980",
+            "1984",
+            "1988",
+            "1992",
+            "1996",
+            "2000",
+            "2004",
+            "2008",
+            "2012",
+            "2016",
+            "2020",
+            "2024"
+          ]
+        ],
+        "name": "year"
+      },
+      "Y": {
+        "data": [
+          [
+            46, 35, 22, 17, 14, 27, 11, 25, 20, 18, 14, 19, 13, 21, 38, 25, 20,
+            15, 30, 32, 49, 68, 68, 70, 67
+          ]
+        ],
+        "name": "cnt(year)"
+      },
+      "conditions": ["region == UK"],
+      "importance": 0.5188083254235916
+    }
+  },
+  "8741708756110": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "line",
+      "X": {
+        "data": [
+          [
+            "1920",
+            "1924",
+            "1928",
+            "1932",
+            "1936",
+            "1948",
+            "1952",
+            "1956",
+            "1960",
+            "1964",
+            "1968",
+            "1972",
+            "1976",
+            "1980",
+            "1984",
+            "1988",
+            "1992",
+            "1996",
+            "2000",
+            "2004",
+            "2008",
+            "2012",
+            "2016",
+            "2020",
+            "2024"
+          ]
+        ],
+        "name": "year"
+      },
+      "Y": {
+        "data": [
+          [
+            95, 101, 56, 110, 57, 84, 77, 74, 71, 91, 107, 95, 95, 0, 175, 95,
+            109, 104, 93, 104, 111, 104, 125, 119, 127
+          ]
+        ],
+        "name": "cnt(year)"
+      },
+      "conditions": ["region == USA"],
+      "importance": 0.5188083254235916
+    }
+  },
+  "8741708755981": {
+    "vis_type": "composite",
+    "composite_pattern": "repetition",
+    "spatial_arrangement": "circular",
+    "spatial_distribution": "equal",
+    "children": [
+      8741708755996, 8741708756038, 8741708756050, 8741708756125, 8741708756098,
+      8741708756056
+    ],
+    "operation": "ALL_UNION region",
+    "importance": 0.5375634980308949
+  },
+  "8741708755996": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [
+          [
+            "Aquatics",
+            "Athletics",
+            "Ballgames",
+            "Combat",
+            "Cycling",
+            "Equestrian",
+            "Gymnastics",
+            "Others",
+            "Shooting",
+            "Weightlifting"
+          ]
+        ],
+        "name": "sport"
+      },
+      "Y": {
+        "data": [[188, 36, 153, 92, 8, 0, 74, 42, 91, 70]],
+        "name": "cnt(sport)"
+      },
+      "conditions": ["region == China"],
+      "importance": 0.5375634980308949
+    }
+  },
+  "8741708756038": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [
+          [
+            "Aquatics",
+            "Athletics",
+            "Ballgames",
+            "Combat",
+            "Cycling",
+            "Equestrian",
+            "Gymnastics",
+            "Others",
+            "Shooting",
+            "Weightlifting"
+          ]
+        ],
+        "name": "sport"
+      },
+      "Y": {
+        "data": [[144, 57, 42, 232, 75, 34, 16, 38, 32, 15]],
+        "name": "cnt(sport)"
+      },
+      "conditions": ["region == France"],
+      "importance": 0.5375634980308949
+    }
+  },
+  "8741708756050": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [
+          [
+            "Aquatics",
+            "Athletics",
+            "Ballgames",
+            "Combat",
+            "Cycling",
+            "Equestrian",
+            "Gymnastics",
+            "Others",
+            "Shooting",
+            "Weightlifting"
+          ]
+        ],
+        "name": "sport"
+      },
+      "Y": {
+        "data": [[471, 263, 64, 186, 78, 101, 69, 57, 57, 38]],
+        "name": "cnt(sport)"
+      },
+      "conditions": ["region == Germany"],
+      "importance": 0.5375634980308949
+    }
+  },
+  "8741708756125": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [
+          [
+            "Aquatics",
+            "Athletics",
+            "Ballgames",
+            "Combat",
+            "Cycling",
+            "Equestrian",
+            "Gymnastics",
+            "Others",
+            "Shooting",
+            "Weightlifting"
+          ]
+        ],
+        "name": "sport"
+      },
+      "Y": {
+        "data": [[263, 291, 77, 397, 43, 18, 265, 22, 99, 97]],
+        "name": "cnt(sport)"
+      },
+      "conditions": ["region == Russia"],
+      "importance": 0.5375634980308949
+    }
+  },
+  "8741708756098": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [
+          [
+            "Aquatics",
+            "Athletics",
+            "Ballgames",
+            "Combat",
+            "Cycling",
+            "Equestrian",
+            "Gymnastics",
+            "Others",
+            "Shooting",
+            "Weightlifting"
+          ]
+        ],
+        "name": "sport"
+      },
+      "Y": {
+        "data": [[238, 182, 36, 92, 74, 46, 13, 73, 23, 7]],
+        "name": "cnt(sport)"
+      },
+      "conditions": ["region == UK"],
+      "importance": 0.5375634980308949
+    }
+  },
+  "8741708756056": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [
+          [
+            "Aquatics",
+            "Athletics",
+            "Ballgames",
+            "Combat",
+            "Cycling",
+            "Equestrian",
+            "Gymnastics",
+            "Others",
+            "Shooting",
+            "Weightlifting"
+          ]
+        ],
+        "name": "sport"
+      },
+      "Y": {
+        "data": [[892, 662, 132, 277, 33, 69, 85, 66, 120, 43]],
+        "name": "cnt(sport)"
+      },
+      "conditions": ["region == USA"],
+      "importance": 0.5375634980308949
+    }
+  },
+  "8741708850610": {
+    "view": {
+      "variation": {
+        "style": "equal-angle-progress",
+        "segmentGapAngle": 0.18,
+        "endSegmentPaddingAngle": 0.16
+      },
+      "vis_type": "basic",
+      "chart_type": "pie",
+      "X": {
+        "data": [["China", "France", "Germany", "Russia", "UK", "USA"]],
+        "name": "region"
+      },
+      "Y": {
+        "data": [[754, 685, 1384, 1572, 784, 2379]],
+        "name": "cnt(region)"
+      },
+      "conditions": [],
+      "importance": 0.5
+    }
+  }
+}

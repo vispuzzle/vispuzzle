@@ -1,0 +1,255 @@
+{
+  "8757903216830": {
+    "vis_type": "composite",
+    "composite_pattern": "nesting",
+    "spatial_arrangement": "in_place",
+    "spatial_distribution": "proportional",
+    "children": [8757903250288, 8757903216743],
+    "operation": "CONDITION_JOIN artist",
+    "importance": 1.0,
+    "order_columns": [],
+    "reward": 0.88542,
+    "detailed_score": {
+      "total": 0.88542,
+      "cognitive": 0.837507,
+      "detailed_cognitive": {
+        "convexity": 1.0,
+        "compactness": 0.682286,
+        "proximity": 1.0,
+        "balance": 0.664105
+      },
+      "task_relevance": 1.0,
+      "aesthetic": 0.833333,
+      "weights": {
+        "cognitive": 0.5,
+        "task_relevance": 0.3,
+        "aesthetic": 0.2
+      }
+    }
+  },
+  "8757903250288": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "graph",
+      "X": {
+        "data": [
+          [
+            "Ariana Grande",
+            "Ariana Grande",
+            "Ariana Grande",
+            "Ariana Grande",
+            "Drake",
+            "Drake",
+            "Drake",
+            "Drake",
+            "Ed Sheeran",
+            "Ed Sheeran",
+            "Ed Sheeran",
+            "Ed Sheeran",
+            "Future",
+            "Future",
+            "Future",
+            "Future",
+            "Kendrick Lamar",
+            "Kendrick Lamar",
+            "Billie Eilish"
+          ]
+        ],
+        "name": "artist",
+        "description": "Collaborations between popular Spotify artists based on number of joint tracks"
+      },
+      "Y": {
+        "data": [
+          [
+            "The Weeknd",
+            "Ed Sheeran",
+            "Justin Bieber",
+            "Future",
+            "The Weeknd",
+            "Justin Bieber",
+            "Future",
+            "Kendrick Lamar",
+            "The Weeknd",
+            "Taylor Swift",
+            "Justin Bieber",
+            "Future",
+            "The Weeknd",
+            "Taylor Swift",
+            "Justin Bieber",
+            "Kendrick Lamar",
+            "The Weeknd",
+            "Taylor Swift",
+            "Justin Bieber"
+          ]
+        ],
+        "name": "artist"
+      },
+      "conditions": [],
+      "importance": 1.0,
+      "extra_data": {
+        "weight": [
+          15, 1, 6, 1, 19, 2, 21, 14, 2, 9, 4, 1, 12, 1, 5, 7, 5, 9, 1
+        ],
+        "relationship": [
+          15, 1, 6, 1, 19, 2, 21, 14, 2, 9, 4, 1, 12, 1, 5, 7, 5, 9, 1
+        ]
+      }
+    }
+  },
+  "8757903216743": {
+    "vis_type": "composite",
+    "composite_pattern": "repetition",
+    "spatial_arrangement": "irregular_tessellation",
+    "spatial_distribution": "proportional",
+    "children": [
+      8757903216866, 8757903216878, 8757903216890, 8757903216695, 8757903216674,
+      8757903216689, 8757903216803, 8757903216773, 8757903216719
+    ],
+    "operation": "ALL_UNION artist",
+    "importance": 1.0
+  },
+  "8757903216866": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Folk", "Hip-Hop", "Indie", "Pop", "R&B"]],
+        "name": "genre"
+      },
+      "Y": {
+        "data": [[0, 6, 0, 14, 5]],
+        "name": "cnt(artist)"
+      },
+      "conditions": ["artist == Ariana Grande"],
+      "importance": 1.0
+    }
+  },
+  "8757903216878": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Folk", "Hip-Hop", "Indie", "Pop", "R&B"]],
+        "name": "genre"
+      },
+      "Y": {
+        "data": [[7, 1, 11, 4, 3]],
+        "name": "cnt(artist)"
+      },
+      "conditions": ["artist == Billie Eilish"],
+      "importance": 1.0
+    }
+  },
+  "8757903216890": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Folk", "Hip-Hop", "Indie", "Pop", "R&B"]],
+        "name": "genre"
+      },
+      "Y": {
+        "data": [[0, 27, 0, 25, 7]],
+        "name": "cnt(artist)"
+      },
+      "conditions": ["artist == Drake"],
+      "importance": 1.0
+    }
+  },
+  "8757903216695": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Folk", "Hip-Hop", "Indie", "Pop", "R&B"]],
+        "name": "genre"
+      },
+      "Y": {
+        "data": [[3, 0, 4, 4, 2]],
+        "name": "cnt(artist)"
+      },
+      "conditions": ["artist == Ed Sheeran"],
+      "importance": 1.0
+    }
+  },
+  "8757903216674": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Folk", "Hip-Hop", "Indie", "Pop", "R&B"]],
+        "name": "genre"
+      },
+      "Y": {
+        "data": [[0, 1, 1, 20, 0]],
+        "name": "cnt(artist)"
+      },
+      "conditions": ["artist == Future"],
+      "importance": 1.0
+    }
+  },
+  "8757903216689": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Folk", "Hip-Hop", "Indie", "Pop", "R&B"]],
+        "name": "genre"
+      },
+      "Y": {
+        "data": [[0, 0, 0, 9, 5]],
+        "name": "cnt(artist)"
+      },
+      "conditions": ["artist == Justin Bieber"],
+      "importance": 1.0
+    }
+  },
+  "8757903216803": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Folk", "Hip-Hop", "Indie", "Pop", "R&B"]],
+        "name": "genre"
+      },
+      "Y": {
+        "data": [[0, 14, 0, 3, 0]],
+        "name": "cnt(artist)"
+      },
+      "conditions": ["artist == Kendrick Lamar"],
+      "importance": 1.0
+    }
+  },
+  "8757903216773": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Folk", "Hip-Hop", "Indie", "Pop", "R&B"]],
+        "name": "genre"
+      },
+      "Y": {
+        "data": [[47, 2, 5, 1, 5]],
+        "name": "cnt(artist)"
+      },
+      "conditions": ["artist == Taylor Swift"],
+      "importance": 1.0
+    }
+  },
+  "8757903216719": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Folk", "Hip-Hop", "Indie", "Pop", "R&B"]],
+        "name": "genre"
+      },
+      "Y": {
+        "data": [[0, 3, 1, 5, 17]],
+        "name": "cnt(artist)"
+      },
+      "conditions": ["artist == The Weeknd"],
+      "importance": 1.0
+    }
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "8733389294364": {
+    "vis_type": "composite",
+    "composite_pattern": "stack",
+    "spatial_arrangement": "vertical",
+    "spatial_distribution": "proportional",
+    "children": [8733389294475, 8733389294493],
+    "operation": "COLUMN_JOIN origin",
+    "importance": 1.0,
+    "order_columns": [],
+    "theme": "cars",
+    "reward": 0.837136,
+    "detailed_score": {
+      "total": 0.837136,
+      "cognitive": 0.807605,
+      "detailed_cognitive": {
+        "convexity": 0.843064,
+        "compactness": 0.51562,
+        "proximity": 1.0,
+        "balance": 1.0
+      },
+      "task_relevance": 1.0,
+      "aesthetic": 0.666667,
+      "weights": { "cognitive": 0.5, "task_relevance": 0.3, "aesthetic": 0.2 }
+    }
+  },
+  "8733389294475": {
+    "vis_type": "composite",
+    "composite_pattern": "repetition",
+    "spatial_arrangement": "horizontal",
+    "spatial_distribution": "equal",
+    "children": [8733389294583, 8733389294460, 8733389294436],
+    "operation": "ALL_UNION origin",
+    "importance": 1.0
+  },
+  "8733389294583": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "line",
+      "X": {
+        "data": [
+          [
+            "1970",
+            "1971",
+            "1972",
+            "1973",
+            "1974",
+            "1975",
+            "1976",
+            "1977",
+            "1978",
+            "1979",
+            "1980",
+            "1982"
+          ]
+        ],
+        "name": "year"
+      },
+      "Y": {
+        "data": [
+          [
+            86.2, 74.0, 79.6, 81.85714285714286, 74.16666666666667, 89.5,
+            87.625, 81.0, 99.16666666666667, 72.0, 66.75, 71.2
+          ]
+        ],
+        "name": "avg(horsepower)"
+      },
+      "conditions": ["origin == Europe"],
+      "importance": 1.0
+    }
+  },
+  "8733389294460": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "line",
+      "X": {
+        "data": [
+          [
+            "1970",
+            "1971",
+            "1972",
+            "1973",
+            "1974",
+            "1975",
+            "1976",
+            "1977",
+            "1978",
+            "1979",
+            "1980",
+            "1982"
+          ]
+        ],
+        "name": "year"
+      },
+      "Y": {
+        "data": [
+          [
+            91.5, 79.25, 93.8, 98.5, 72.5, 80.25, 76.5, 81.16666666666667,
+            79.25, 65.0, 78.84615384615384, 76.47619047619048
+          ]
+        ],
+        "name": "avg(horsepower)"
+      },
+      "conditions": ["origin == Japan"],
+      "importance": 1.0
+    }
+  },
+  "8733389294436": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "line",
+      "X": {
+        "data": [
+          [
+            "1970",
+            "1971",
+            "1972",
+            "1973",
+            "1974",
+            "1975",
+            "1976",
+            "1977",
+            "1978",
+            "1979",
+            "1980",
+            "1982"
+          ]
+        ],
+        "name": "year"
+      },
+      "Y": {
+        "data": [
+          [
+            166.95454545454547, 119.84210526315789, 138.77777777777777,
+            146.6206896551724, 112.14285714285714, 108.7, 110.5,
+            118.38888888888889, 107.27272727272727, 109.43478260869566,
+            88.83333333333333, 85.96875
+          ]
+        ],
+        "name": "avg(horsepower)"
+      },
+      "conditions": ["origin == USA"],
+      "importance": 1.0
+    }
+  },
+  "8733389294493": {
+    "vis_type": "composite",
+    "composite_pattern": "repetition",
+    "spatial_arrangement": "horizontal",
+    "spatial_distribution": "equal",
+    "children": [8733389294409, 8733389294403, 8733389294373],
+    "operation": "ALL_UNION origin",
+    "importance": 1.0
+  },
+  "8733389294409": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "line",
+      "X": {
+        "data": [
+          [
+            "1970",
+            "1971",
+            "1972",
+            "1973",
+            "1974",
+            "1975",
+            "1976",
+            "1977",
+            "1978",
+            "1979",
+            "1980",
+            "1982"
+          ]
+        ],
+        "name": "year"
+      },
+      "Y": {
+        "data": [
+          [
+            25.2, 28.75, 22.0, 24.0, 27.0, 24.5, 24.25, 29.25, 24.95, 30.45,
+            36.8375, 34.36
+          ]
+        ],
+        "name": "avg(miles/gallon)"
+      },
+      "conditions": ["origin == Europe"],
+      "importance": 1.0
+    }
+  },
+  "8733389294403": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "line",
+      "X": {
+        "data": [
+          [
+            "1970",
+            "1971",
+            "1972",
+            "1973",
+            "1974",
+            "1975",
+            "1976",
+            "1977",
+            "1978",
+            "1979",
+            "1980",
+            "1982"
+          ]
+        ],
+        "name": "year"
+      },
+      "Y": {
+        "data": [
+          [
+            25.5, 29.5, 24.2, 20.0, 29.333333333333332, 27.5, 28.0,
+            27.416666666666668, 29.687499999999996, 32.95, 35.4,
+            33.785714285714285
+          ]
+        ],
+        "name": "avg(miles/gallon)"
+      },
+      "conditions": ["origin == Japan"],
+      "importance": 1.0
+    }
+  },
+  "8733389294373": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "line",
+      "X": {
+        "data": [
+          [
+            "1970",
+            "1971",
+            "1972",
+            "1973",
+            "1974",
+            "1975",
+            "1976",
+            "1977",
+            "1978",
+            "1979",
+            "1980",
+            "1982"
+          ]
+        ],
+        "name": "year"
+      },
+      "Y": {
+        "data": [
+          [
+            15.272727272727273, 17.736842105263158, 16.27777777777778,
+            15.03448275862069, 18.142857142857142, 17.55, 19.431818181818183,
+            20.72222222222222, 21.772727272727273, 23.47826086956522, 26.3,
+            28.871875000000003
+          ]
+        ],
+        "name": "avg(miles/gallon)"
+      },
+      "conditions": ["origin == USA"],
+      "importance": 1.0
+    }
+  }
+}

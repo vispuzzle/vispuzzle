@@ -1,0 +1,16 @@
+.codex
+.vscode/
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+
+cache/
+logs/
+results/
+data/
+temp/
+scoring_model/output/
+output_dir/

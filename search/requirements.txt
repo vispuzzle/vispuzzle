@@ -1,0 +1,15 @@
+beautifulsoup4
+cairosvg
+filelock
+Flask
+matplotlib
+networkx
+numpy
+openai>=1.0.0
+pandas
+Pillow
+pyecharts
+requests
+scipy
+selenium
+tqdm

@@ -1,0 +1,160 @@
+{
+  "8757903216743": {
+    "vis_type": "composite",
+    "composite_pattern": "repetition",
+    "spatial_arrangement": "circular",
+    "spatial_distribution": "proportional",
+    "children": [
+      8757903216866, 8757903216878, 8757903216890, 8757903216695, 8757903216674,
+      8757903216689, 8757903216803, 8757903216773, 8757903216719
+    ],
+    "operation": "ALL_UNION artist",
+    "order": "artist",
+    "importance": 1.0,
+    "theme": "spotify"
+  },
+  "8757903216866": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Folk", "Hip-Hop", "Indie", "Pop", "R&B"]],
+        "name": "genre"
+      },
+      "Y": {
+        "data": [[0, 6, 0, 14, 5]],
+        "name": "cnt(artist)"
+      },
+      "conditions": ["artist == Ariana Grande"],
+      "importance": 1.0
+    }
+  },
+  "8757903216878": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Folk", "Hip-Hop", "Indie", "Pop", "R&B"]],
+        "name": "genre"
+      },
+      "Y": {
+        "data": [[7, 1, 11, 4, 3]],
+        "name": "cnt(artist)"
+      },
+      "conditions": ["artist == Billie Eilish"],
+      "importance": 1.0
+    }
+  },
+  "8757903216890": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Folk", "Hip-Hop", "Indie", "Pop", "R&B"]],
+        "name": "genre"
+      },
+      "Y": {
+        "data": [[0, 27, 0, 25, 7]],
+        "name": "cnt(artist)"
+      },
+      "conditions": ["artist == Drake"],
+      "importance": 1.0
+    }
+  },
+  "8757903216695": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Folk", "Hip-Hop", "Indie", "Pop", "R&B"]],
+        "name": "genre"
+      },
+      "Y": {
+        "data": [[3, 0, 4, 4, 2]],
+        "name": "cnt(artist)"
+      },
+      "conditions": ["artist == Ed Sheeran"],
+      "importance": 1.0
+    }
+  },
+  "8757903216674": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Folk", "Hip-Hop", "Indie", "Pop", "R&B"]],
+        "name": "genre"
+      },
+      "Y": {
+        "data": [[0, 1, 1, 20, 0]],
+        "name": "cnt(artist)"
+      },
+      "conditions": ["artist == Future"],
+      "importance": 1.0
+    }
+  },
+  "8757903216689": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Folk", "Hip-Hop", "Indie", "Pop", "R&B"]],
+        "name": "genre"
+      },
+      "Y": {
+        "data": [[0, 0, 0, 9, 5]],
+        "name": "cnt(artist)"
+      },
+      "conditions": ["artist == Justin Bieber"],
+      "importance": 1.0
+    }
+  },
+  "8757903216803": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Folk", "Hip-Hop", "Indie", "Pop", "R&B"]],
+        "name": "genre"
+      },
+      "Y": {
+        "data": [[0, 14, 0, 3, 0]],
+        "name": "cnt(artist)"
+      },
+      "conditions": ["artist == Kendrick Lamar"],
+      "importance": 1.0
+    }
+  },
+  "8757903216773": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Folk", "Hip-Hop", "Indie", "Pop", "R&B"]],
+        "name": "genre"
+      },
+      "Y": {
+        "data": [[47, 2, 5, 1, 5]],
+        "name": "cnt(artist)"
+      },
+      "conditions": ["artist == Taylor Swift"],
+      "importance": 1.0
+    }
+  },
+  "8757903216719": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [["Folk", "Hip-Hop", "Indie", "Pop", "R&B"]],
+        "name": "genre"
+      },
+      "Y": {
+        "data": [[0, 3, 1, 5, 17]],
+        "name": "cnt(artist)"
+      },
+      "conditions": ["artist == The Weeknd"],
+      "importance": 1.0
+    }
+  }
+}

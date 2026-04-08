@@ -1,0 +1,126 @@
+{
+  "8756970234465": {
+    "vis_type": "composite",
+    "composite_pattern": "stack",
+    "spatial_arrangement": "horizontal",
+    "spatial_distribution": "proportional",
+    "children": [8756970234414, 8756970234615],
+    "operation": "COLUMN_JOIN year",
+    "importance": 1.0,
+    "order_columns": [],
+    "theme": "cars2",
+    "reward": 0.782321,
+    "detailed_score": {
+      "total": 0.782321,
+      "cognitive": 0.786316,
+      "detailed_cognitive": {
+        "convexity": 0.793234,
+        "compactness": 0.763199,
+        "proximity": 1.0,
+        "balance": 0.596932
+      },
+      "task_relevance": 0.852765,
+      "aesthetic": 0.666667,
+      "weights": { "cognitive": 0.5, "task_relevance": 0.3, "aesthetic": 0.2 }
+    }
+  },
+  "8756970234414": {
+    "vis_type": "composite",
+    "composite_pattern": "repetition",
+    "spatial_arrangement": "vertical",
+    "spatial_distribution": "equal",
+    "children": [
+      8756970234486, 8756970234462, 8756970234495, 8756970234477, 8756970234474
+    ],
+    "operation": "ALL_UNION year",
+    "importance": 1.0
+  },
+  "8756970234486": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": { "data": [["Europe", "Japan", "USA"]], "name": "origin" },
+      "Y": {
+        "data": [[25.071428571428573, 26.363636363636363, 16.372881355932204]],
+        "name": "avg(miles/gallon)"
+      },
+      "conditions": ["year == 1970~1972"],
+      "importance": 1.0
+    }
+  },
+  "8756970234462": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": { "data": [["Europe", "Japan", "USA"]], "name": "origin" },
+      "Y": {
+        "data": [[25.384615384615383, 25.6, 16.046511627906977]],
+        "name": "avg(miles/gallon)"
+      },
+      "conditions": ["year == 1972~1974"],
+      "importance": 1.0
+    }
+  },
+  "8756970234495": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": { "data": [["Europe", "Japan", "USA"]], "name": "origin" },
+      "Y": {
+        "data": [[25.444444444444443, 27.607142857142858, 19.191666666666666]],
+        "name": "avg(miles/gallon)"
+      },
+      "conditions": ["year == 1974~1977"],
+      "importance": 1.0
+    }
+  },
+  "8756970234477": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": { "data": [["Europe", "Japan", "USA"]], "name": "origin" },
+      "Y": {
+        "data": [[27.15, 30.339999999999996, 22.644444444444446]],
+        "name": "avg(miles/gallon)"
+      },
+      "conditions": ["year == 1977~1979"],
+      "importance": 1.0
+    }
+  },
+  "8756970234474": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": { "data": [["Europe", "Japan", "USA"]], "name": "origin" },
+      "Y": {
+        "data": [[35.88461538461539, 34.40294117647059, 28.465789473684207]],
+        "name": "avg(miles/gallon)"
+      },
+      "conditions": ["year == 1979~1982"],
+      "importance": 1.0
+    }
+  },
+  "8756970234615": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "parea",
+      "X": {
+        "data": [
+          ["1970~1972", "1972~1974", "1974~1977", "1977~1979", "1979~1982"]
+        ],
+        "name": "year"
+      },
+      "Y": {
+        "data": [
+          [
+            19.13095238095238, 19.333333333333332, 21.695652173913043,
+            24.52153846153847, 31.97529411764706
+          ]
+        ],
+        "name": "avg(miles/gallon)"
+      },
+      "conditions": [],
+      "importance": 1.0
+    }
+  }
+}

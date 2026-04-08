@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "name": "World Cup Final Matches",
+        "description": "The world cup final matches between European countries",
+        "x_name": "country",
+        "label_name": "attribute"
+    },
+    "edges": [
+        {
+            "source": "Italy",
+            "target": "Czechia",
+            "weight": 1,
+            "relationship": "1934\nITA 2:1 CZE"
+        },
+        {
+            "source": "Italy",
+            "target": "Hungary",
+            "weight": 1,
+            "relationship": "1938\nITA 4:2 HUN"
+        },
+        {
+            "source": "Germany",
+            "target": "Hungary",
+            "weight": 1,
+            "relationship": "1954\nGER 3:2 HUN"
+        },
+        {
+            "source": "England",
+            "target": "Germany",
+            "weight": 1,
+            "relationship": "1966\nENG 4:2 GER"
+        },
+        {
+            "source": "Germany",
+            "target": "Netherlands",
+            "weight": 1,
+            "relationship": "1974\nGER 2:1 NED"
+        },
+        {
+            "source": "Italy",
+            "target": "Germany",
+            "weight": 1,
+            "relationship": "1982\nITA 3:1 GER"
+        },
+        {
+            "source": "Italy",
+            "target": "France",
+            "weight": 1,
+            "relationship": "2006\nITA 1(5):1(3) FRA"
+        },
+        {
+            "source": "Spain",
+            "target": "Netherlands",
+            "weight": 1,
+            "relationship":"2010\nESP 1:0 NED"
+        },
+        {
+            "source": "France",
+            "target": "Croatia",
+            "weight": 1,
+            "relationship": "2018\nFRA 4:2 CRO"
+        }
+    ]
+}

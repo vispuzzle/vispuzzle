@@ -1,0 +1,52 @@
+{
+    "View Coordination": {
+        "requirements": "The visualization should ensure consistency across views, using the same visual encoding methods like color schemes, scales, and legends. There should be a coherent narrative connecting the different views, and effective interrelations between them should be provided.",
+        "likert": [
+            "Inconsistent visual encoding, lack of narrative.",
+            "Some consistency, but weak relationships between views.",
+            "Mostly consistent, but some relationships unclear.",
+            "Consistent visual encoding, strong relationships between views.",
+            "High-level consistency, coherent narrative across views."
+        ]
+    },
+    "Space Layout": {
+        "requirements": "The layout should optimize the use of available space, ensure proper visual hierarchy, and balance information density to avoid clutter and wasted space. The panel structure should be clear and allow for easy access to key information.",
+        "likert": [
+            "Poor space utilization, cluttered layout.",
+            "Some effective space utilization, but cluttered.",
+            "Balanced space use, but some overcrowding.",
+            "Good space use, clear hierarchy and balanced density.",
+            "Effective space utilization, clear visual hierarchy."
+        ]
+    },
+    "Information Hierarchy": {
+        "requirements": "The visualization should highlight key information, downplay secondary details, and guide the viewer’s attention through a clear visual flow.",
+        "likert": [
+            "Key information unclear, secondary details dominate.",
+            "Key information somewhat highlighted, but cluttered.",
+            "Key information highlighted, but secondary details overwhelm.",
+            "Key information clearly highlighted, secondary details minimized.",
+            "Key information stands out clearly, guiding the user’s attention."
+        ]
+    },
+    "Multi-Dimensional Insight": {
+        "requirements": "The visualization should provide complementary insights rather than redundant information, clearly display the relationships between multiple variables, and offer a multi-perspective analysis of the data.",
+        "likert": [
+            "Redundant information, unclear relationships.",
+            "Some complementary insights, unclear relationships.",
+            "Clear relationships, but some perspectives underrepresented.",
+            "Strong complementary insights, multiple perspectives clear.",
+            "Highly effective multi-dimensional insights, deep understanding."
+        ]
+    },
+    "Aesthetic Design": {
+        "requirements": "The visualization should maintain high-quality visual standards without sacrificing effectiveness. Consistency in design, color schemes, and layout are important to avoid visual interference and improve user comprehension.",
+        "likert": [
+            "Poor design, inconsistent and distracting.",
+            "Some inconsistencies, but somewhat effective.",
+            "Generally consistent, minor distractions.",
+            "Well-designed, supporting clarity and readability.",
+            "High-quality aesthetic design, enhancing both beauty and clarity."
+        ]
+    }
+}

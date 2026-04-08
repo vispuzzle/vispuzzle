@@ -1,0 +1,154 @@
+{
+  "8757903250204": {
+    "vis_type": "composite",
+    "composite_pattern": "repetition",
+    "spatial_arrangement": "circular",
+    "spatial_distribution": "equal",
+    "children": [
+      8757903216770, 8757903216782, 8757903216794, 8757903216806, 8757903216818
+    ],
+    "operation": "ALL_UNION genre",
+    "importance": 1.0,
+    "order_columns": [],
+    "theme": "spotify",
+    "reward": 0.758264,
+    "detailed_score": {
+      "total": 0.758264,
+      "cognitive": 0.649861,
+      "detailed_cognitive": {
+        "convexity": 0.860462,
+        "compactness": 0.019452,
+        "proximity": 1.0,
+        "balance": 0.929435
+      },
+      "task_relevance": 1.0,
+      "aesthetic": 0.666667,
+      "weights": { "cognitive": 0.5, "task_relevance": 0.3, "aesthetic": 0.2 }
+    }
+  },
+  "8757903216770": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [
+          [
+            "Ariana Grande",
+            "Billie Eilish",
+            "Drake",
+            "Ed Sheeran",
+            "Future",
+            "Justin Bieber",
+            "Kendrick Lamar",
+            "Taylor Swift",
+            "The Weeknd"
+          ]
+        ],
+        "name": "artist"
+      },
+      "Y": { "data": [[0, 7, 0, 3, 0, 0, 0, 47, 0]], "name": "cnt(artist)" },
+      "conditions": ["genre == Folk"],
+      "importance": 1.0
+    }
+  },
+  "8757903216782": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [
+          [
+            "Ariana Grande",
+            "Billie Eilish",
+            "Drake",
+            "Ed Sheeran",
+            "Future",
+            "Justin Bieber",
+            "Kendrick Lamar",
+            "Taylor Swift",
+            "The Weeknd"
+          ]
+        ],
+        "name": "artist"
+      },
+      "Y": { "data": [[6, 1, 27, 0, 1, 0, 14, 2, 3]], "name": "cnt(artist)" },
+      "conditions": ["genre == Hip-Hop"],
+      "importance": 1.0
+    }
+  },
+  "8757903216794": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [
+          [
+            "Ariana Grande",
+            "Billie Eilish",
+            "Drake",
+            "Ed Sheeran",
+            "Future",
+            "Justin Bieber",
+            "Kendrick Lamar",
+            "Taylor Swift",
+            "The Weeknd"
+          ]
+        ],
+        "name": "artist"
+      },
+      "Y": { "data": [[0, 11, 0, 4, 1, 0, 0, 5, 1]], "name": "cnt(artist)" },
+      "conditions": ["genre == Indie"],
+      "importance": 1.0
+    }
+  },
+  "8757903216806": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [
+          [
+            "Ariana Grande",
+            "Billie Eilish",
+            "Drake",
+            "Ed Sheeran",
+            "Future",
+            "Justin Bieber",
+            "Kendrick Lamar",
+            "Taylor Swift",
+            "The Weeknd"
+          ]
+        ],
+        "name": "artist"
+      },
+      "Y": { "data": [[14, 4, 25, 4, 20, 9, 3, 1, 5]], "name": "cnt(artist)" },
+      "conditions": ["genre == Pop"],
+      "importance": 1.0
+    }
+  },
+  "8757903216818": {
+    "view": {
+      "vis_type": "basic",
+      "chart_type": "bar",
+      "X": {
+        "data": [
+          [
+            "Ariana Grande",
+            "Billie Eilish",
+            "Drake",
+            "Ed Sheeran",
+            "Future",
+            "Justin Bieber",
+            "Kendrick Lamar",
+            "Taylor Swift",
+            "The Weeknd"
+          ]
+        ],
+        "name": "artist"
+      },
+      "Y": { "data": [[5, 3, 7, 2, 0, 5, 0, 5, 17]], "name": "cnt(artist)" },
+      "conditions": ["genre == R&B"],
+      "importance": 1.0
+    }
+  }
+}

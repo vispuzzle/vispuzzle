@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.parcel-cache/
+.vscode/
+src/examples/test/
+src/examples/canva_demo/
+src/examples/case_study/
+data/
+temp_data/
+tmp/
+*.log
+temp_data/
+output.svg
+assets/
+docs/
+src/test/

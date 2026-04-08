@@ -1,0 +1,123 @@
+{
+    "metadata": {
+        "name": "Spotify Artist Collaborations",
+        "description": "Collaborations between popular Spotify artists based on number of joint tracks",
+        "x_name": "artist"
+    },
+    "edges": [
+        {
+            "source": "Ariana Grande",
+            "target": "The Weeknd",
+            "weight": 15,
+            "relationship": 15
+        },
+        {
+            "source": "Ariana Grande",
+            "target": "Ed Sheeran",
+            "weight": 1,
+            "relationship": 1
+        },
+        {
+            "source": "Ariana Grande",
+            "target": "Justin Bieber",
+            "weight": 6,
+            "relationship": 6
+        },
+        {
+            "source": "Ariana Grande",
+            "target": "Future",
+            "weight": 1,
+            "relationship": 1
+        },
+        {
+            "source": "Drake",
+            "target": "The Weeknd",
+            "weight": 19,
+            "relationship": 19
+        },
+        {
+            "source": "Drake",
+            "target": "Justin Bieber",
+            "weight": 2,
+            "relationship": 2
+        },
+        {
+            "source": "Drake",
+            "target": "Future",
+            "weight": 21,
+            "relationship": 21
+        },
+        {
+            "source": "Drake",
+            "target": "Kendrick Lamar",
+            "weight": 14,
+            "relationship": 14
+        },
+        {
+            "source": "Ed Sheeran",
+            "target": "The Weeknd",
+            "weight": 2,
+            "relationship": 2
+        },
+        {
+            "source": "Ed Sheeran",
+            "target": "Taylor Swift",
+            "weight": 9,
+            "relationship": 9
+        },
+        {
+            "source": "Ed Sheeran",
+            "target": "Justin Bieber",
+            "weight": 4,
+            "relationship": 4
+        },
+        {
+            "source": "Ed Sheeran",
+            "target": "Future",
+            "weight": 1,
+            "relationship": 1
+        },
+        {
+            "source": "Future",
+            "target": "The Weeknd",
+            "weight": 12,
+            "relationship": 12
+        },
+        {
+            "source": "Future",
+            "target": "Taylor Swift",
+            "weight": 1,
+            "relationship": 1
+        },
+        {
+            "source": "Future",
+            "target": "Justin Bieber",
+            "weight": 5,
+            "relationship": 5
+        },
+        {
+            "source": "Future",
+            "target": "Kendrick Lamar",
+            "weight": 7,
+            "relationship": 7
+        },
+        {
+            "source": "Kendrick Lamar",
+            "target": "The Weeknd",
+            "weight": 5,
+            "relationship": 5
+        },
+        {
+            "source": "Kendrick Lamar",
+            "target": "Taylor Swift",
+            "weight": 9,
+            "relationship": 9
+        },
+        {
+            "source": "Billie Eilish",
+            "target": "Justin Bieber",
+            "weight": 1,
+            "relationship": 1
+        }
+    ]
+}
